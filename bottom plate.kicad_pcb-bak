@@ -5,7 +5,7 @@
     (drawings 8)
     (tracks 0)
     (zones 0)
-    (modules 5)
+    (modules 6)
     (nets 1)
   )
 
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerbies/pcb/"))
+      (outputdirectory "gerbies/bottom/"))
   )
 
   (net 0 "")
@@ -99,6 +99,17 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
+  )
+
+  (module kbd:M2_Hole_NPTH_Outside (layer F.Cu) (tedit 5F1B9159) (tstamp 5F973F8B)
+    (at 61.11875 31.75)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value M2_Hole_NPTH_Outside (at 0 -0.5) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask))
   )
 
   (module kbd:M2_HOLE_v3 (layer F.Cu) (tedit 5F96E357) (tstamp 5F973C4E)

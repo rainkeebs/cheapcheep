@@ -2,10 +2,10 @@
 
   (general
     (thickness 1.6)
-    (drawings 8)
+    (drawings 9)
     (tracks 0)
     (zones 0)
-    (modules 5)
+    (modules 6)
     (nets 1)
   )
 
@@ -99,6 +99,17 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
+  )
+
+  (module kbd:M2_Hole_NPTH_Outside (layer F.Cu) (tedit 5F1B9159) (tstamp 5F973F8B)
+    (at 61.11875 31.75)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value M2_Hole_NPTH_Outside (at 0 -0.5) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask))
   )
 
   (module kbd:M2_HOLE_v3 (layer F.Cu) (tedit 5F96E357) (tstamp 5F973C4E)
@@ -236,6 +247,9 @@
     (pad 1 thru_hole circle (at 0 0) (size 4 4) (drill 2.3) (layers *.Cu *.Mask))
   )
 
+  (gr_text JLCJLCJLCJLC (at 114.3 50.8) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_line (start 207.9625 17.4625) (end 20.6375 17.4625) (layer Edge.Cuts) (width 0.05) (tstamp 5F983E86))
   (gr_line (start 209.55 92.075) (end 209.55 19.05) (layer Edge.Cuts) (width 0.05) (tstamp 5F983E85))
   (gr_line (start 20.6375 93.6625) (end 207.9625 93.6625) (layer Edge.Cuts) (width 0.05) (tstamp 5F983E84))

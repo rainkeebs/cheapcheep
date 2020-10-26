@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 694)
+    (drawings 695)
     (tracks 359)
     (zones 0)
     (modules 95)
@@ -4231,6 +4231,9 @@
     (pad "" np_thru_hole circle (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
   )
 
+  (gr_text JLCJLCJLCJLC (at 114.3 52.3875) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
   (gr_arc (start 47.350902 34.677683) (end 49.432256 38.824861) (angle -10.21388279) (layer B.SilkS) (width 0.02))
   (gr_arc (start 47.414447 35.097276) (end 47.824732 39.302595) (angle -11.196534) (layer B.SilkS) (width 0.02))
   (gr_arc (start 48.454562 36.149508) (end 50.134663 38.390067) (angle -14.90883911) (layer B.SilkS) (width 0.02))
